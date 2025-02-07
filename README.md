@@ -1,5 +1,3 @@
-# https://nayaji-saas.netlify.app/
-
 # ProjetPerso-Authentification_et_Gestion_de_Tokens
 Ce projet est une application SaaS qui permet aux utilisateurs de s'inscrire, se connecter et gérer leur session via des tokens JWT. Les comptes utilisateurs et les tokens sont stockés dans une base de données MySQL.
 
@@ -9,12 +7,6 @@ Ce projet est une application SaaS qui permet aux utilisateurs de s'inscrire, se
 - Stockage des tokens en base de données pour la gestion des sessions
 - Vérification de la validité des tokens
 - Frontend React pour l'authentification des utilisateurs
-
-## Technologies Utilisées
-- Frontend : React, React Router
-- Backend : Node.js, Express.js, JWT (JSON Web Tokens)
-- Base de données : MySQL
-- Serveur local : ngrok pour exposer les ports du backend et du frontend en ligne
 
 ## Endpoints API
 ### Authentification
@@ -30,9 +22,9 @@ Ce projet est une application SaaS qui permet aux utilisateurs de s'inscrire, se
 | 1   | test@mail.com | hash_du_mot_de_passe |
 
 #### `user_tokens`
-| id  | user_id | token       | created_at          | expires_at          |
-|-----|---------|------------|---------------------|---------------------|
-| 1   | 1       | jwt_token  | 2025-02-07 11:00:00 |2025-02-07 12:00:00 |
+| id  | user_id | token       | expires_at          |
+|-----|---------|------------|---------------------|
+| 1   | 1       | jwt_token  | 2025-02-07 12:00:00 |
 
 ## Frontend
 Le frontend est développé avec React et utilise React Router pour la navigation. Les pages principales incluent :
