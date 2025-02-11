@@ -1,4 +1,4 @@
-# https://nayaji-saas.netlify.app/
+
 
 # ProjetPerso-Authentification_et_Gestion_de_Tokens
 Ce projet est une application SaaS qui permet aux utilisateurs de s'inscrire, se connecter et gérer leur session via des tokens JWT. Les comptes utilisateurs et les tokens sont stockés dans une base de données MySQL.
